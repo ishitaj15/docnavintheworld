@@ -1,0 +1,55 @@
+.consult-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f5faff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .consult-container h2 {
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 10px;
+  }
+  
+  .consult-container p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input, textarea, select {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #005f87;
+  }
+  

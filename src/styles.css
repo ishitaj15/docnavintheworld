@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f9fc;
+    margin: 0;
+    padding: 0;
+    color: #222;
+  }
+  
+  a.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+  
+  a.btn:hover {
+    background-color: #005fa3;
+  }
+  
+  h1, h2, h3 {
+    color: #0a4f84;
+  }
+  
+  .page-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .page-container h2 {
+    color: #2a5d9f;
+    margin-bottom: 16px;
+  }
+  
+  .page-container p {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #2a5d9f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #1c4174;
+  }
+  
